@@ -9,11 +9,9 @@ module Memorable
           self.all.clear
         end
 
-        module InstanceMethods
+  module InstanceMethods
    def initialize
      self.class.all << self
    end
- end
- 
 end
 end
